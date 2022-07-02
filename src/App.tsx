@@ -1,16 +1,14 @@
-import './styles/custom.scss'
-import './App.css'
+import "./styles/custom.scss";
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-
-
   return (
-  <>
-  <h1 className='bg-primary text-white'>LALALA</h1>
-  <button className="btn btn-primary text-white w-100"> Add</button>
-  </>
-  
-  )
+    <>
+      <Navbar />
+      <h1>Hello Porra</h1>
+    </>
+  );
 }
 
-export default App
+export default App;
