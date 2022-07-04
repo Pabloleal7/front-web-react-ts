@@ -1,6 +1,7 @@
 import  mainImage from "../../assets/images/main-image.svg";
-import Navbar from "../../components/Navbar";
-
+import ButtonIcon from "../../components/ButonIcon";
+import Navbar from '../../components/Navbar';
+import './styles.css'
 
 function Home() {
   
@@ -10,7 +11,11 @@ function Home() {
       <div className="home-container">
         <div className="home-card">
           <div className="home-content-container">
-            <h1>Conheça o mehlor catalogo de produtos</h1>
+            <div>
+            <h1>Conheça o melhor catalogo de produtos</h1>
+            <p>Ajudaremos voce a encontrar os melhores produtos disponiveis no mercado.</p>
+            </div>
+            <ButtonIcon/>
           </div>
           <div className="home-image-container">
            <img src={mainImage} alt="" />
